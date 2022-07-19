@@ -23,4 +23,39 @@ Best case : aranan sayının başta olması [2,6,16,18,22,27]
 [3,5,7,8,2,9,4,15,6]
 
 
+Merge Sort Projesi
+
+[16,21,11,8,12,22] -> Merge Sort
+
+1)Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+2)Big-O gösterimini yazınız.
+
+1) 16,21,11,8,12,22
+[16]  [21,11]   [8] [12,22]
+[16] [21] [11]  [8] [12] [22] 
+[11,16] [21]    [8,12] [22]
+  [11,16,21,8,12,22]
+  
+2) Big O gösterimi
+Big O : O(nlogn)
+
+Binary Search Tree Projesi
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+           7
+          / \
+         5   8
+        / \   \
+       1   6   9
+      / \
+     0   3                            
+        / \
+       2   4     
+
+
+
+
 www.patika.dev
